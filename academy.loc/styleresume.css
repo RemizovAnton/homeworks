@@ -1,0 +1,111 @@
+img {
+    float: left;
+    margin-left: 50px;
+    width: 200px;
+    height: 300px;
+}
+h1 {
+    width:750px;
+    margin-left: 300px;
+    color: #B2A2A3;
+    border-bottom: 2px groove #B2A2A3  ;
+    text-transform: uppercase ;
+    font-style: italic;
+}
+h2 {
+    margin-left: 200px;
+    color: #B2A2A3;
+    margin-left: 300px;
+    margin-left: 300px;
+    text-transform: uppercase ;
+    font-style: italic;
+}
+.about1 {
+    float: left;
+    margin-left: 50px;
+    color: #B2A2A3;
+}
+.about2 {
+    float: left;
+    margin-left: 50px;
+}
+.tb1 {
+    margin-left: 50px;
+    background-color: #FCCECE ;
+    width: 1000px;
+    font-style: italic;
+    border-bottom: 5px solid #954546;
+
+}
+
+.up {
+    text-transform: uppercase;
+    color: #A85C5E;
+}
+td {
+    padding-left: 20px;
+}
+
+
+.box{
+    float: left;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 225px;
+
+
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 50%;
+    background: #FCCECE;
+    top: -200px;
+
+
+}
+.exp {
+    position: absolute;
+    margin-left: 325px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.exp1 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+.work {
+    width: 1000px;
+    margin-left: 50px;
+}
+
+
+.time_work {
+    font-style: italic;
+    color: #954546;
+}
+
+table .about_work:hover {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+footer {
+    margin-left: 50px;
+    width: 1000px;
+    height:100px;
+    background-color:#FCCECE ;
+    text-align: right;
+    font-style: italic;
+}
+.contact {
+    text-transform: uppercase;
+    color: #A85C5E;
+}
+
+

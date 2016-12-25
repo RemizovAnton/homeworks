@@ -1,0 +1,16 @@
+* {
+    font-family: Tahoma;
+}
+a {
+    color: #0074A2;
+}
+.bar {
+    border-color: red;
+    border-style: solid;
+}
+.bar b  {
+    color: #FF3399 ;
+}
+a:hover{
+    color: #003300 ;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Keywords for your web page -->
+    <meta name="keywords" content="Первая страница html, HTML, PHP" >
+
+    <!-- Description for your web page -->
+    <meta name="description" content="Первая страница ученика PHP Academy">
+
+    <!-- Author of page content -->
+    <meta name="author" content="Ученик Ремизов Антон">
+
+    <title>Personal Web Page - Exercise</title>
+</head>
+
+<body>
+    <!--Test comment -->
+    <h1>Нужно учиться!!!</h1>
+
+    <p>Нужно <b><i>много</i></b> <u>учиться</u>.</p>
+
+    <p>Читать, <b><i>делать</i></b> <u>упражнения</u>.</p>
+
+    <p>Это <b><i>все</i></b> поможет создать свой <u>проэкт</u>.</p>
+<pre>
+    ---
+    ---
+    |||
+    |||
+    |||
+    |||
+    |||
+    |||
+    |||
+</pre></br>
+
+    <b> &lt;img&gt; - tag for images </b></br>
+
+<a href="https://www.google.com.ua/?gfe_rd=cr&ei=4IRQWIvNOKn37gSmgJboBw#q=Earth" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Earth-DSCOVR-20150706-IFV.jpg" alt="World"
+         align="left" width="50" title="World">
+</a>
+
+<p>Земля́ — третья от Солнца планета. Пятая по размеру среди всех планет Солнечной системы.
+    Она является также крупнейшей по диаметру, массе и плотности среди планет земной группы.</p></br>
+
+<p>Единственное известное человеку на данный момент тело Солнечной системы в частности и Вселенной вообще,
+    населённое живыми организмами.</p></br>
+
+<!-- https://ru.wikipedia.org/wiki/%D0%97%D0%B5%D0%BC%D0%BB%D1%8F -->
+
+    <h3>Для упрощение проверки, решил создать оглавление по урокам и прекрепить к нему якоря )))</h3>
+
+    <h2>Оглавление</h2>
+    <ul>
+        <li><a href="#15">Урок 15 Списки</a></li>
+        <li><a href="#16">Урок 16 Таблицы</a></li>
+        <li><a href="#18">Урок 18 Формы</a></li>
+    </ul>
+
+<h4 >Урок 15 Списки <a name="15"></a></h4>
+<ol>
+    <li>Азия</li>
+        <ul>
+            <li>Афганистан</li>
+            <li>Ирак</li>
+            <li>Бангладеш</li>
+        </ul>
+    <li>Африка</li>
+        <ul>
+            <li>Алжир</li>
+            <li>Ангола</li>
+            <li>Египет</li>
+        </ul>
+    <li>Европа</li>
+        <ul>
+            <li>Германия</li>
+            <li>Дания</li>
+            <li>Италия</li>
+        </ul>
+
+    <li>Северная Америка</li>
+        <ul>
+            <li>Барбадос</li>
+            <li>Гондурас</li>
+            <li>Мексика</li>
+         </ul>
+    <li>Южная Америка</li>
+         <ul>
+            <li>Аргентина</li>
+            <li>Колумбия</li>
+            <li>Перу</li>
+        </ul>
+    <li>Австралия</li>
+        <ul>
+            <li>Тонга</li>
+            <li>Науру</li>
+            <li>Тувалу</li>
+        </ul>
+
+</ol>
+
+    <h4 >Урок 16 Таблицы <a name="16"></a></h4>
+
+<table border="1">
+    <tr>
+        <td colspan="2">Some continents and area</td>
+    </tr>
+    <tr>
+        <td>Австралия</td>
+        <td>7 631 500 кв. км</td>
+    </tr>
+    <tr>
+        <td>Азия</td>
+        <td>44 363 000 кв. км</td>
+    </tr>
+    <tr>
+        <td>Африка</td>
+        <td>30 319 000 кв. км</td>
+    </tr>
+    <tr>
+        <td>Европа</td>
+        <td>10 507 000 кв. км</td>
+    </tr>
+</table>
+
+    <h4 >Урок 18 Формы <a name="18"></a></h4>
+
+<table>
+    <tr>
+        <td>Name:</td>
+        <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="email"></td>
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td><input type="text" name="phone"></td>
+    </tr>
+
+    <!-- Урок 19 -->
+
+    <tr>
+    <td>Gender:</td>
+
+    <td>
+        <input type="radio" name="Gender" value="male">Male </br>
+        <input type="radio" name="Gender" value="female" >female </br>
+    </td>
+    </tr>
+    <tr>
+        <td>Application For:</td>
+        <td><input type="checkbox" name="application_1"> Aplication 1 </td>
+        <td><input type="checkbox" name="application_2" checked> Aplication 2 </td>
+    </tr>
+    <!-- Урок 20 -->
+
+    <tr>
+        <td>Ваша страна:</td>
+        <td>
+            <select name="country">
+                <option value="0" selected>Select your country</option>
+                <option value="ua">Ukraine</option>
+                <option value="ru">Russian</option>
+                <option value="de">Germany</option>
+                <option value="en">England</option>
+            </select>
+        </td>
+    </tr>
+
+    <!-- Урок 21 -->
+    <tr>
+        <td>
+            <input type="hidden" name="data" value="14.12.2016">
+        </td>
+    </tr>
+
+
+    <tr>
+        <td colspan="2"><textarea placeholder="Message"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="submit"></td>
+    </tr>
+
+</table>
+
+    <!-- Урок 22 -->
+
+<form enctype="multipart/form-data" method="post">
+
+    <p>Прикрепить файл резюме:</p>
+    <input type="file" name="resume" >
+
+</form>
+
+</body>
+</html>
